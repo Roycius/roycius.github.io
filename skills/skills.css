@@ -1,0 +1,35 @@
+body {
+    background-color: #0d6efd;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 1px 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainNavbar .navbar-brand{
+    color: #2a9d8f;
+    font-weight: 700;
+}
+
+.badge-arduino {
+    background-color: #00979C;
+    color: white
+}
+
+.badge-freertos {
+    background-color: #A4BE7B;
+    color: white;
+}
+
+.skill-desc-item a {
+    color: black;
+}
+
+.border {
+    border-width: 2px !important;
+}

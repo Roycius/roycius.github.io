@@ -1,0 +1,12 @@
+body {
+    background-color: #ffbe0b;
+}
+
+#mainNavbar .navbar-brand{
+    color: #2a9d8f;
+    font-weight: 700;
+}
+
+a {
+    color: black;
+}
