@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/info.css">
+    <title>CG4002</title>
+</head>
+
+<body>
+    <script id="navbar" src="/templates/navbar.js"></script>
+
+    <div class="container">
+        <h1 class="text-dark m-2 p-2 text-center">CG4002 Computer Engineering Capstone Project</h1>
+        <blockquote class="blockquote bg-light m-2 p-3">
+            <p>This module introduces students to the development of a large system from conceptualisation to its final
+                implementation. It is structured to contain substantial design and development of hardware and software
+                components. This module is the culminating point of a series of modules integrating the theories which
+                students have already learnt in CS1010, CS2040C, CG2028, CG2271 and CS2113/T. With this capstone
+                project, students would be able to better appreciate the relevance of the various components in the
+                Computer Engineering curriculum to large scale computer engineering projects.</p>
+            <footer class="blockquote-footer">Module description at <cite title="Source Title">NUSMods</cite></footer>
+        </blockquote>
+    </div>
+
+    <div class="container">
+        <h2 class="border-bottom border-dark py-2">Abstract</h2>
+        <p>The main gist of the project is to utilize various techonologies such as microcontrollers, bluetooth low
+            energy communications, augmented reality and AI, to come up to with a lazer tag game.</p>
+
+        <p>The project is split up into 5 main components, Hardware, Internal Comms, External Comms, AI, and Visualizer
+            + Game Engine. The component I was in charge of was Internal Communications.</p>
+
+        <p>My main role is to utilize a Linux laptop to communicate with Bluetooth Low Energy microcontrollers. The main
+            objective is to send hardware sensor data from the microcontrollers to the laptop, which will then relay
+            them to a server.</p>
+
+        <p>The system uses Arduino Bluno microcontrollers send bytes to the Linux laptop using Bluetooth Low Energy
+            communication, which then is received, processed and relayed using Python. Communication reliability is also
+            ensured by utilizing various error detection methods and protocols.</p>
+
+        <h2 class="border-bottom border-dark py-2">Skills Learnt</h2>
+        <ul>
+            <li>Integration of smaller components for a larger project</li>
+            <li>Python scripting</li>
+            <li>Bluetooth Low Energy communications</li>
+        </ul>
+
+        <h2 class="border-bottom border-dark py-2">Relevant Links</h2>
+        <ul>
+            <li><a href="https://youtu.be/UHB5t4GogSg">Video explaining the individual component of the project</a></li>
+            <li><a href="https://youtu.be/SJd5GRNxBaQ">Video for final evaluation of the project</a></li>
+        </ul>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

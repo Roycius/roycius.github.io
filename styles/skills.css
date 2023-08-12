@@ -16,6 +16,10 @@ img {
     font-weight: 700;
 }
 
+.nav-tabs .nav-link{
+    color: #dee2e6
+}
+
 .badge-arduino {
     background-color: #00979C;
     color: white
